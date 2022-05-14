@@ -99,4 +99,4 @@ Run ```/usr/bin/sudo /home/anansi/bin/anansi_util manual id ```
 then `` !/bin/bash``
 Now you are a root user
 
-![alt text](./Screenshot from 2022-05-14 20-32-17.png)
+![alt text](./root.png)
