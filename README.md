@@ -9,7 +9,7 @@ Brainpan is perfect for OSCP practice and has been highly recommended to complet
 # 1. python3 threader.py 
 here we find two port 9999, 10000 are opened and at 10000 SimpleHTTPServer 0.6 (Python 2.7.3) .
 # 2. A web portal was live.
-``` nmap -p9999,10000 -sV ip
+``` nmap -p9999,10000 -sV ip```
 # 3. I used gobuster for directory traversal 
 ``` gobuster  dir  -u http://http://10.10.188.178:10000 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  ```
 # Found /bin directory
